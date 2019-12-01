@@ -31,9 +31,9 @@ body {
 /*****HEADER*****/
 
 header {
-    background: url('../img/water-still-2.jpg');
+    /*background: url('../img/water-still-2.jpg');*/
     
-    height: 800px;  
+    height: 200px;  
     background-size: cover;
 }
 /*
