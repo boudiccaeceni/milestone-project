@@ -6,8 +6,8 @@ body {
 }
 
 header, #portfolio, #about, #connect {
-    height: 200px;
-    border: 2px solid orangered;
+    /*height: 200px;*/
+    border: 1px solid orangered;
     width: 1398px;
 } 
 
@@ -15,25 +15,25 @@ header, #portfolio, #about, #connect {
 /***** GRID *****/
 
 .full-width {
-    height: 200px;
+      /*height: 200px;*/
     margin: 0 auto;
     width: 1400px; 
     background-size: auto;
     background-origin: padding-box;
-    border: 2px solid red;
+    border: 1px solid red;
     }
 
 
 .half-width {
-    border: 2px solid blue;
+    border: 1px solid blue;
     float: left;
-    height: 80px;
+    /*height: 80px;*/
     width: 695px;
     
 }
 
 .third-width {
-    border: 2px solid green;
+    border: 1px solid green;
     float: left;
     width: 460px;  
 }
