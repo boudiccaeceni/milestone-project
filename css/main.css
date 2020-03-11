@@ -1,69 +1,100 @@
 /***** BASE STYLES *****/
 
 body {
-    color: #012C49;
-    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #333333;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
 }
 
-header, #portfolio, #about, #connect {
-    /*height: 200px;*/
-    border: 1px solid orangered;
-    width: 1398px;
-} 
+
 
 
 /***** GRID *****/
 
-.full-width {
-      /*height: 200px;*/
+/*.full-width {
+    height: 200px;
     margin: 0 auto;
     width: 1400px; 
+    background-color: rgba(255, 0, 0, 0.2);
     background-size: auto;
-    background-origin: padding-box;
-    border: 1px solid red;
+    /*background-origin: padding-box;
+    border: 1px solid black;
     }
 
 
 .half-width {
+    background-color: rgba(234, 241, 122, 0.2);
     border: 1px solid blue;
     float: left;
-    /*height: 80px;*/
+    /*height: 80px;
     width: 695px;
     
 }
 
 .third-width {
+    background-color: rgba(79, 240, 73, 0.2);
     border: 1px solid green;
     float: left;
     width: 460px;  
+}*/
+
+
+.full-width {
+    background-color: rgba(255, 0, 0, 0.4);
+    margin: 0 auto;
+    overflow: auto;
+    width: 1400px; 
+    /*height: 450px;*/
+    }
+
+.half-width {
+    background-color: rgba(230, 72, 177, 0.4);
+    float: left;
+    /*height: 400px;*/
+    width: 690px;
 }
+
+.third-width {
+    background-color: rgba(79, 240, 73, 0.4);
+    float: left;
+    text-align: center;
+    width: 460px; 
+}
+
 
 /*****HEADER*****/
 
 header {
-    /*background: url('../img/water-still-2.jpg');
-    border: 2px solid magenta;*/
-
-}
-/*
-header h1 {
-    color: #9ba717;
+    /*background: url('../img/hero-background.png');*/
+    background-size: auto;
     font-family: 'Lora', serif;
-    font-size: 30px;
-    padding: 65px 0 65px 25px;
-}*/
+    /*height: 400px;
+    padding: 65px 0 65px 25px;*/
+    }
+
+    header .full-width #headline {
+        background: url('../img/hero-background.png');
+        background-size: cover;
+        height: 700px;
+    }
+
+    header .full-width #headline h1 {
+        padding-top: 300px;
+    }
+header h1, nav {
+    color: whitesmoke;
+    font-size: 30px;  
+    text-decoration: none; 
+    }
 
 nav {
-    float: right;
-    
+    float: right;    
 }
 
 nav ul li {
     display: inline-block;
 }
 
- main h2 {
- 
+ main h2 { 
   text-align: center;
 }
 
@@ -71,7 +102,7 @@ header h2 {
     clear: both;
     color: #9b9b9b;
     font-family: 'Lora', serif;
-    font-size: 72px;
+    /*font-size: 72px;*/
     line-height: 80px;
     padding: 20px 0 20px 25px;
     text-align: center;
@@ -81,27 +112,51 @@ header h2 {
 header h2 span {
     color: #2b2b2b;
 }
-*/
+
 
 /**** PORTFOLIO*****/
 
+.display-image {
+    width: 400px;
+}
+
+#portfolio p {
+    /*font-size: 24pt; */
 }
 
 /*****ABOUT*****/
 
-#about {
+#about .full-width {
+    background-color: rgba(79, 240, 73, 0.2);
+    background: url('../img/about-me.png');
+    background-size: cover;
+    height: 400px;
     
-    text-align: center;
     /*background-size: cover;*/
   }
 
+#about img {
 
+    height: 400px;
 }
+
 
   /*****CONNECT*****/
 
-  #connect {
+#connect {
     
 }
 
- 
+#connect ul {
+    list-style: none;
+    text-align: center;
+}
+
+#connect ul li {
+    display: inline-block;
+}
+
+#connect ul img {
+        font-size: 32px;
+        padding-right: 48px;
+    }
