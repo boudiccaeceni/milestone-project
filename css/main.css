@@ -2,7 +2,7 @@
 
 body {
     background-color: #333333;
-    /*font-family: 'Source Sans Pro', sans-serif;*/
+  
 }
 
 
@@ -66,24 +66,42 @@ body {
 header {
     /*background: url('../img/hero-background.png');*/
     background-size: auto;
-    font-family: 'Lora', serif;
+    
     /*height: 400px;
     padding: 65px 0 65px 25px;*/
     }
 
-    header .full-width #headline {
-        background: url('../img/hero-background.png');
-        background-size: cover;
-        height: 700px;
+header .full-width #headline {
+    background: url('../img/hero-background.png');
+    background-size: cover;
+    height: 700px;
     }
 
-    header .full-width #headline h1 {
-        padding-top: 300px;
+header .full-width #headline h1 {
+    padding-top: 300px;
     }
-header h1, nav {
+
+header h1 {
+    color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;  
+    }
+    
+header nav {
     color: whitesmoke;
     font-size: 30px;  
     text-decoration: none; 
+    }
+    
+    
+header h2 {
+    clear: both;
+    color: #9b9b9b;
+    font-family: 'Montserrat', sans-serif;
+    /*font-size: 72px;*/
+    line-height: 80px;
+    padding: 20px 0 20px 25px;
+    width: 1000px;
     }
 
 nav {
@@ -94,20 +112,25 @@ nav ul li {
     display: inline-block;
 }
 
+nav ul li a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-left: 80px;
+    text-decoration: none;
+    
+}
  main h2 { 
-  text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600px;
+    text-align: center;
+    }
+
+main p, h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 
-header h2 {
-    clear: both;
-    color: #9b9b9b;
-    font-family: 'Lora', serif;
-    /*font-size: 72px;*/
-    line-height: 80px;
-    padding: 20px 0 20px 25px;
-    text-align: center;
-    width: 1000px;
-}
+
 
 header h2 span {
     color: #2b2b2b;
