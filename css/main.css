@@ -2,9 +2,22 @@
 
 body {
     background-color: #282828; 
-  
-}
+  }
 
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    }
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    }
+
+   
 /***** GRID *****/
 
 .full-width {
@@ -20,14 +33,13 @@ body {
     /*background-color: rgba(230, 72, 177, 0.4);*/
     float: left;
     /*height: 400px;*/
-   width: 690px;
+    width: 700px;
 }
 
-.third-width {
-    /*background-color: rgba(79, 240, 73, 0.4);*/
+.third-width { 
     float: left;
     text-align: center;
-    width: 460px; 
+    width: 466px; 
 }
 
 
@@ -43,8 +55,9 @@ header h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    font-weight: 400;
-    /*padding: 20px 0 20px 25px;*/
+    font-weight: normal;
+    margin: 0;
+    padding: 20px 0 20px 30px;
     text-decoration: none;
 
     }
@@ -53,22 +66,26 @@ header h2 {
     color: white;
     font-family: 'Source Code Pro', monospace;
     font-size: 72px; 
-    padding-top: 150px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 310px;
     }
 
 nav {
-    float: right;    
+   /* float: right;    */
+   padding-left: 180px;
 }
 
 nav ul li {
     display: inline-block;
-}
+  }
 
 nav ul li a {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;      
-    padding-left: 80px;
+    font-size: 30px;     
+    margin: 0; 
+    padding: 20px 30px 20px 10px;
     text-decoration: none;
     }
 
@@ -79,34 +96,29 @@ header h2 span {
 /**** PORTFOLIO*****/
 
 main h2 { 
-    color: green;
+    background-color: rgba(230, 72, 177, 0.4);
+    color:#f70074;
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
     text-align: center;
     }
 
-main h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    padding-left: 100px;
-    }
-
-main p {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    padding-left: 100px;
-    }
-
 
 #portfolio p, #portfolio h3 {
     color: white; 
+    padding-left: 100px;
     }
 
-.display-image {
-    padding-left: 100px;
+#portfolio h3 {
+    padding-top: 100px;
+}
+
+#portfolio-cube {
+    
+    padding: 100px 0px 100px 100px;
+}
+
+#display-image {  
     width: 400px;
 }
 
@@ -125,15 +137,28 @@ main p {
     height: 400px;
 }
 
+#about h3 {
+    color: black;
+    padding-left: 100px;
+}
+
 #about p {
     color: black; 
-}
+    padding-left: 100px;
+    }
 
   /*****CONNECT*****/
 
-#connect {
-    
-}
+#connect h3 {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    }
+
+#connect p {
+    color: white; 
+    text-align: center;
+    }
 
 #connect ul {
     list-style: none;
@@ -147,6 +172,14 @@ main p {
 #connect ul img {
     font-size: 32px;
     padding-right: 48px;
+    }
+
+#connect a {    
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
     }
     
 h4 {
