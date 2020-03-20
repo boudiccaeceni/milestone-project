@@ -2,13 +2,13 @@
 
 body {
     background-color: #282828; 
-  }
+}
 
   p {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
-    }
+}
 
 h2 { 
     color:#f70074;
@@ -23,7 +23,7 @@ h3 {
     font-size: 24px;
     font-weight: 700;
     margin: 0;
-    }
+}
 
    
 /***** GRID *****/
@@ -33,7 +33,7 @@ h3 {
     margin: 0 auto;
     overflow: auto;
     width: 1400px; 
-    }
+}
 
 .half-width {
     float: left;
@@ -53,7 +53,7 @@ header .full-width #headline {
     background: url('../img/hero-background.png');
     background-size: cover;
     height: 700px;
-    }
+}
 
 header h1 {
     color: white;
@@ -63,7 +63,7 @@ header h1 {
     margin: 0;
     padding: 20px 0 20px 30px;
     text-decoration: none;
-    }
+}
            
 header h5 {    
     color: white;
@@ -72,7 +72,7 @@ header h5 {
     font-weight: normal;
     margin: 0;
     padding-top: 310px;
-    }
+}
 
 nav {
     padding-left: 180px;
@@ -80,7 +80,7 @@ nav {
 
 nav ul li {
     display: inline-block;
-  }
+}
 
 nav ul li a {
     color: white;
@@ -89,7 +89,7 @@ nav ul li a {
     margin: 0; 
     padding: 20px 30px 20px 10px;
     text-decoration: none;
-    }
+}
 
 h5 span {
     color: mediumvioletred;
@@ -175,6 +175,7 @@ h5 span {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin: 0 0 0 0;
+    text-decoration: none;
 }
 
 #connect p {
