@@ -2,7 +2,7 @@
 
 body {
     background-color: #282828; 
-}
+  }
 
   p {
     font-family: 'Montserrat', sans-serif;
@@ -25,7 +25,16 @@ h3 {
     margin: 0;
 }
 
-   
+h4 {
+    color: white;
+    font-size: 24px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    margin: 0 0 0 0;
+    text-decoration: none;
+} 
+
+ 
 /***** GRID *****/
 
 .full-width {
@@ -106,10 +115,6 @@ h5 span {
 }
 
 #portfolio h4 {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: normal;
     margin: 0 0 28px 0;
 }
 
@@ -163,18 +168,13 @@ h5 span {
 
 #connect h3 {
     color: white;
-    font-weight: 700;
     margin-top: 50px;
     padding-bottom: 25px;
     text-align: center;
 }
 
 #connect h4 {
-    color: white;
-    font-size: 24px; 
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    margin: 0 0 0 0;
+    margin: 0;
     text-decoration: none;
 }
 
@@ -198,18 +198,20 @@ h5 span {
     padding-right: 48px;
 }
 
-#connect a {    
+#connect a, h6 {    
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
     text-decoration: none;
 }
+
+#connect a {    
+    font-size: 24px;
+    text-decoration: none;
+}
     
-h5 {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+h6 {
     font-size: 18px;
-    font-weight: 400;
     padding-top: 100px;
 }
